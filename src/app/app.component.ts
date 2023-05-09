@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  message:any
   title = 'angular11';
+  public name = "Parent Injected Data"
 }
